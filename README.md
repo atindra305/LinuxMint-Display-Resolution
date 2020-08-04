@@ -84,7 +84,7 @@ Set the linux mint display setting for monitor
     
             $ xrandr --output VGA-1 --mode "1280x1024_60.00"
 
-# [Permanant Fix](https://github.com/atindra305/XFCE-Display-Resolution/blob/master/SetResolution.sh)
+# [Permanant Fix](https://github.com/atindra305/LinuxMint-Permanent-Display-Resolution/blob/master/SetResolution.sh)
 1. Create a bash file to automate the above changes.
 
 2. Open a text editor and type the following commands (as above ones):

@@ -83,3 +83,27 @@ Set the linux mint display setting for monitor
     2. This should change your resolution within a split second to your desired setting
     
             $ xrandr --output VGA-1 --mode "1280x1024_60.00"
+
+# [Permanant Fix](https://github.com/atindra305/XFCE-Display-Resolution/blob/master/SetResolution.sh)
+1. Create a bash file to automate the above changes.
+
+2. Open a text editor and type the following commands (as above ones):
+
+            #! /bin/bash
+            xrandr --newmode "1280x1024_60.00"  109.00  1280 1368 1496 1712  1024 1027 1034 1063 -hsync +vsync
+            xrandr --addmode VGA-1 1280x1024_60.00
+            xrandr --output VGA-1 --mode "1280x1024_60.00"
+
+3. Save the file on 'Desktop' as 'SetResolution.sh'.
+
+4. Right-click on the icon for SetResolution.sh, and choose "Properties".
+
+5. Select the "Permissions" tab.
+
+6. Click on the checkbox to allow executing file as program, and then click "Close".
+
+You should now be able to double-click this file and instantly change your resolution whenever you boot into your system.
+
+# Automate from Start of System
+
+1. Add a link to this file into your Startup Applications

@@ -1,4 +1,4 @@
-# XFCE-Permanent-Display-Resolution
+# LinuxMint-Permanent-Display-Resolution
 Set the linux mint display setting for monitor
 
 # [Temporary Fix](https://github.com/atindra305/XFCE-Display-Resolution/blob/master/resolution) 

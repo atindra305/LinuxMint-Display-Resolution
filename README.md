@@ -1,7 +1,7 @@
 # LinuxMint-Permanent-Display-Resolution
 Set the linux mint display setting for monitor
 
-# [Temporary Fix](https://github.com/atindra305/XFCE-Display-Resolution/blob/master/resolution) 
+# [Temporary Fix](https://github.com/atindra305/LinuxMint-Permanent-Display-Resolution/blob/master/resolution) 
 1. Open Terminal
 2. Type xrandr
 
